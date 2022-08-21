@@ -595,6 +595,19 @@ header{
 
     }
 }
+.picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: center;
+    justify-content:center;
+    margin:10px
+}
+.picture-image{
+    margin:20hv
+}
+
+
 @media (max-width:635){
     .about-content{
         grid-template-columns: 1fr;
